@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Luma — Video demo</title>
+<style>
+  body { margin: 0; font-family: system-ui, sans-serif; background: #f9f8f3; color: #171b2c; }
+  main { max-width: 1240px; margin: 0 auto; padding: 32px 20px 48px; }
+  h1 { font-size: 28px; margin: 0 0 8px; }
+  p { color: #656770; margin: 0 0 24px; line-height: 1.6; }
+  .grid { display: grid; gap: 24px; grid-template-columns: 1fr; align-items: start; }
+  @media (min-width: 900px) { .grid { grid-template-columns: 3fr 1fr; } }
+  figure { margin: 0; }
+  figcaption { font-size: 14px; font-weight: 600; margin-bottom: 8px; }
+  video { width: 100%; border-radius: 12px; border: 1px solid #dbdfeb; background: #fff; }
+  a { color: #3157f6; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Luma — video demo</h1>
+  <p>Screen recordings of the production build: desktop (1280px) and mobile (402px) walkthroughs, including hover states, anchor navigation, form validation, the mocked submission and the mobile menu. <a href="/">Open the live page</a> · <a href="https://github.com/gabipossiderio/buzzvel-fe-test">Source code</a></p>
+  <div class="grid">
+    <figure>
+      <figcaption>Desktop · 1280px</figcaption>
+      <video src="/demo/desktop.webm" controls muted playsinline preload="metadata"></video>
+    </figure>
+    <figure>
+      <figcaption>Mobile · 402px</figcaption>
+      <video src="/demo/mobile.webm" controls muted playsinline preload="metadata"></video>
+    </figure>
+  </div>
+</main>
+</body>
+</html>
