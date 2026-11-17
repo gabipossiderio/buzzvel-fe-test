@@ -77,7 +77,7 @@ public/
 
 ## Time spent
 
-Around 6 hours, including reading the design, building, and comparing each section with the Figma frames on desktop, tablet and mobile.
+About 2 hours, including reading the design, building, and comparing each section with the Figma frames on desktop, tablet and mobile.
 
 ## AI tools
 
@@ -89,7 +89,6 @@ I used **Claude (Claude Code)** as a coding assistant to:
 
 How I checked the result:
 
-- Reviewed and adjusted every component myself.
 - Compared each section side by side with the design at 402px and 1280px, and checked 768px.
 - Tested the menu, the anchor links, the form (errors, loading and success), keyboard navigation and reduced motion in the browser.
 - Ran `npm run lint`, `npx tsc --noEmit` and a production build with no errors or warnings.
